@@ -1,0 +1,36 @@
+@font-face {
+    src: url(../fonts/Vazirmatn-Regular.woff2);
+    font-family: Vazir;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: inherit;
+}
+
+body {
+	font-family: Vazir;
+	background-color: #3498DB;
+	padding-inline: 10px;
+}
+
+main {
+	margin: 1rem auto;
+	background-color: #FFF;
+	width: 100%;
+	max-width: 750px;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 24px !important;
+}
+
+#title-wrapper {
+	margin-block-start: 12px;
+}
+
+textarea {
+	height: 200px;
+}
