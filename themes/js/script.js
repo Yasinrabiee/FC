@@ -15,7 +15,6 @@ function correct(text)
 	text = text.replace(/ى/g, "ی");
 	text = text.replace(/ك/g, "ک");
 	text = text.replace(/ ها /g, "‌ها ");
-	text = text.replace(/ها/g, "‌ها ");
 	text = text.replace(/ های /g, "‌های ");
 	text = text.replace(/ هایی /g, "‌هایی ");
 	text = text.replace(/ می /g, " می‌");
